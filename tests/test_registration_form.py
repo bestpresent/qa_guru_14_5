@@ -25,4 +25,4 @@ def test_form():
     browser.element("#example-modal-sizes-title-lg").should(have.text('Thanks for submitting the form'))
     browser.element('.table').all('td').even.should(
         have.exact_texts('Nataly Isaeva', 'lady.astashina@yandex.ru', 'Female', '9123006789', '31 March,1990',
-        'Computer Science, Economics', 'Reading', '1.jpg', 'London', 'Haryana Panipat'))
+         'Computer Science, Economics', 'Reading', '1.jpg', 'London', 'Haryana Panipat'))
